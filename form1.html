@@ -20,12 +20,13 @@
             
         </div>
         <div>
-            <select name="gender">
-                <option value="">Select Gender</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="no-say">Dont Want to say</option>
-            </select>
+            <div>
+        <input name="gender" list="genders" placeholder="Select Gender">
+        <datalist id="genders">
+            <option value="Male">
+            <option value="Female">
+            <option value="Don't Want to Say">
+            </datalist>
         </div>
         <div><input type="submit" placeholder="Submit"> </div>
        </form>
