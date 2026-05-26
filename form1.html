@@ -9,7 +9,7 @@
 
         <div>
            <input name="Username" type="text" placeholder="Name" >
-           <input name="password" type="password" placeholder="Password" 
+           <input name="password" type="password" placeholder="Password">
         </div>
         
         <div>
@@ -20,13 +20,12 @@
             
         </div>
         <div>
-            <input name="gender" list="genders" placeholder="Gender">
-            <datalist id="gender">
-                <option value="Male">
-                <option value="Female">
-                <option value="Don´t Want to say">
-                </option>
-            </datalist>
+            <select name="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="no-say">Dont Want to say</option>
+            </select>
         </div>
         <div><input type="submit" placeholder="Submit"> </div>
        </form>
