@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Google Search</title>
-<link rel="stylesheet" href="index-style.css">
+<title> Google Image Search</title>
+<link rel="stylesheet" href="images.css">
 </head>
 <body>
-    <div>
-
+    <div class="top-links">
+        <a href="index.html"> Google Search</a>
+        <a href="advance.html"> Advance Search</a>
     </div>
    <h1 id="title">
     <span class="g-blue">G</span><span class="g-red">o</span><span class="y-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span>
     </h1>
     <form action="https://www.google.com/search" method="get">
-        <input type="text" name="q">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="text" name="q" placeholder="Search Google...">
        <div>
-        <input type="submit" value="Google Search">
+        <input type="submit" value="Image Search">
        </div>
     </form>
 </body>
