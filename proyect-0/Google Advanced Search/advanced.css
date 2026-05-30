@@ -1,0 +1,26 @@
+
+    body {
+        background-color: #202124;
+        color: white;
+        font-family: arial, sans-serif;
+        padding: 40px;
+    }
+
+    input[type="submit"] {
+        background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    input[type="text"] {
+        background-color: #303134;
+        color: white;
+        border: 1px solid #5f6368;
+        padding: 10px;
+        border-radius: 4px;
+    }
