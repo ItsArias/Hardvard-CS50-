@@ -1,18 +1,20 @@
 
      body {
+        justify-content: flex-start;
+        padding-top: 100px;
         background-color: #202124;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
     }
 
     #title {
         text-align: center;
         font-weight: bold;
-        font-size: 72px;
+        font-size: 95px;
         letter-spacing: -2px;
+        font-family: 'Roboto', sans-serif;
     }
 
     .subtitle {
@@ -31,11 +33,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-}
+    margin-top: 20px;}
 
    input[type="text"] {
-  width: 500px;
+  width: 600px;
   max-width: 90vw;
   padding: 12px 20px;
   border-radius: 24px;
@@ -85,7 +86,7 @@ input[type="submit"]:hover {
     }
 
     .top-links a {
-        color: #e8eaed;
+        color: #2633c3;
         text-decoration: none;
         font-size: 14px;
     }
