@@ -15,4 +15,4 @@ print(s)
 # len could give the lenght of a sequence (numer of items or numer of elements).
 len 
 
-print(f"The set has {len(s)} elements")
+print(f"The set has {len(s)} elements") 
